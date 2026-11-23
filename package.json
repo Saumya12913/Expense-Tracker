@@ -1,0 +1,26 @@
+{
+  "name": "auspify-expense-tracker",
+  "version": "1.0.0",
+  "description": "Task 3 (Medium) - Expense Tracker Web Application for Auspify Full Stack Development Internship",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm run start --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "auspify",
+    "mern",
+    "expense-tracker",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Auspify Full Stack Intern",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
