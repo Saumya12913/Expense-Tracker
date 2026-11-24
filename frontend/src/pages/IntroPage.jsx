@@ -39,8 +39,8 @@ const IntroPage = ({ onNavigateToLogin, onNavigateToRegister }) => {
           className="cinematic-video-bg"
           poster=""
         >
-          <source src="/videos/hero-fintech.webm" type="video/webm" />
-          <source src="/videos/login-coins.webm" type="video/webm" />
+          <source src="./videos/hero-fintech.webm" type="video/webm" />
+          <source src="./videos/login-coins.webm" type="video/webm" />
         </video>
         <div className="cinematic-dark-overlay" />
       </div>
@@ -267,8 +267,8 @@ const IntroPage = ({ onNavigateToLogin, onNavigateToRegister }) => {
               playsInline
               className="showcase-video-element"
             >
-              <source src="/videos/coins-stream.webm" type="video/webm" />
-              <source src="/videos/hero-fintech.webm" type="video/webm" />
+              <source src="./videos/coins-stream.webm" type="video/webm" />
+              <source src="./videos/hero-fintech.webm" type="video/webm" />
             </video>
             <div className="showcase-video-badge">
               <span className="coin-icon-spinning">₹</span> 3D Continuous Coin Motion

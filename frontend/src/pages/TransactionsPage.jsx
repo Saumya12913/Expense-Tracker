@@ -86,8 +86,8 @@ const TransactionsPage = ({ onOpenAddModal, onEditTransaction, onOpenExportModal
             className="cinematic-video-bg"
             style={{ opacity: 0.28 }}
           >
-            <source src="/videos/transactions-coins.webm" type="video/webm" />
-            <source src="/videos/coins-stream.webm" type="video/webm" />
+            <source src="./videos/transactions-coins.webm" type="video/webm" />
+            <source src="./videos/coins-stream.webm" type="video/webm" />
           </video>
           <div className="cinematic-dark-overlay" />
         </div>

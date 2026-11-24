@@ -53,8 +53,8 @@ const LoginPage = ({ onSwitchToRegister, onSwitchToIntro }) => {
           playsInline
           className="cinematic-video-bg"
         >
-          <source src="/videos/login-coins.webm" type="video/webm" />
-          <source src="/videos/hero-fintech.webm" type="video/webm" />
+          <source src="./videos/login-coins.webm" type="video/webm" />
+          <source src="./videos/hero-fintech.webm" type="video/webm" />
         </video>
         <div className="cinematic-dark-overlay" />
       </div>

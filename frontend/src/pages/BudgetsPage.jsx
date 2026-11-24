@@ -48,8 +48,8 @@ const BudgetsPage = () => {
             className="cinematic-video-bg"
             style={{ opacity: 0.3 }}
           >
-            <source src="/videos/budget-coins.webm" type="video/webm" />
-            <source src="/videos/hero-fintech.webm" type="video/webm" />
+            <source src="./videos/budget-coins.webm" type="video/webm" />
+            <source src="./videos/hero-fintech.webm" type="video/webm" />
           </video>
           <div className="cinematic-dark-overlay" />
         </div>

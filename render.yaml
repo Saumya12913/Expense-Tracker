@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: financeflow-tracker
+    env: node
+    plan: free
+    buildCommand: npm run install-all && npm run build
+    startCommand: node backend/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000

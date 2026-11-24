@@ -59,8 +59,8 @@ const ExportModal = ({ isOpen, onClose }) => {
             playsInline
             className="export-video-bg"
           >
-            <source src="/videos/export-coins.webm" type="video/webm" />
-            <source src="/videos/hero-fintech.webm" type="video/webm" />
+            <source src="./videos/export-coins.webm" type="video/webm" />
+            <source src="./videos/hero-fintech.webm" type="video/webm" />
           </video>
           <div className="export-video-overlay" />
           <div className="export-video-content">

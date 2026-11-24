@@ -46,8 +46,8 @@ const AnalyticsPage = () => {
             className="cinematic-video-bg"
             style={{ opacity: 0.32 }}
           >
-            <source src="/videos/analytics-growth.webm" type="video/webm" />
-            <source src="/videos/hero-fintech.webm" type="video/webm" />
+            <source src="./videos/analytics-growth.webm" type="video/webm" />
+            <source src="./videos/hero-fintech.webm" type="video/webm" />
           </video>
           <div className="cinematic-dark-overlay" />
         </div>

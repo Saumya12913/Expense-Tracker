@@ -36,8 +36,8 @@ const DashboardPage = ({ onOpenAddModal, setActiveTab, onEditTransaction }) => {
             playsInline
             className="cinematic-video-bg"
           >
-            <source src="/videos/hero-fintech.webm" type="video/webm" />
-            <source src="/videos/coins-stream.webm" type="video/webm" />
+            <source src="./videos/hero-fintech.webm" type="video/webm" />
+            <source src="./videos/coins-stream.webm" type="video/webm" />
           </video>
           <div className="cinematic-dark-overlay" />
         </div>
