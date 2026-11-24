@@ -9,6 +9,7 @@ FinanceFlow is a full-stack **MERN** web application developed for **Task 3 (Med
 
 ---
 
+LIVE DEPLOYED URL: https://saumya12913.github.io/Expense-Tracker/
 ## 🌟 Unique Placement & Standout Features
 
 - 🧠 **Dynamic Financial Health Score (0–100)**: Proprietary algorithmic index calculating financial wellness based on savings rate (40 pts), budget compliance (30 pts), and cash runway (30 pts).
